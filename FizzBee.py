@@ -1,5 +1,5 @@
 import unittest
-from fizzbuzz import  affiche
+import  affiche
 
 class testfizzbee(unittest.TestCase):
         def test_affiche(self):
@@ -21,4 +21,3 @@ def affiche():
         else:
             result.append(str(i))
     return ''.join(result)
-    
